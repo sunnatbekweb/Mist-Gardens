@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.btn1_hover:hover {
+    background: #475F45;
+    color: white;
+}
+
+.btn2_hover:hover {
+    background: transparent;
+    border: 2px solid #475F45;
+    color: #475F45;
+}
+
+.btn3_hover:hover {
+    background: #ffffff !important;
+    color: #475F45 !important;
+}
